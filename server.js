@@ -29,6 +29,7 @@ const userSchema = new mongoose.Schema({
     email : String,
     password : String,
     verified : Boolean,
+    image : String
 });
 
 const postSchema = new mongoose.Schema({
